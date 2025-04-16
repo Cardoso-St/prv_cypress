@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Dashboard</h2>
+        <input type="text" id="search" placeholder="Buscar usuário">
+        <button id="add-user">Adicionar Usuário</button>
+        <table>
+            <thead>
+                <tr><th>Nome</th><th>Email</th></tr>
+            </thead>
+            <tbody id="user-list">
+                <tr><td>João</td><td>joao@email.com</td></tr>
+                <tr><td>Maria</td><td>maria@email.com</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./js/dashboard.js"></script>
+</body>
+</html>
